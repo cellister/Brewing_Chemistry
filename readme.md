@@ -1,4 +1,5 @@
-# Kaggle Open Dataset: Brewery Operations and Market Analysis Dataset
+# Kaggle Open Dataset: 
+# Brewery Operations and Market Analysis Dataset
 
 This project was completed as the final Phase 5, Capstone assessment in the Flatiron School’s Data Science Bootcamp. 
 
@@ -111,21 +112,25 @@ The data used in this analysis can be found in the [Kaggle Dataset](https://www.
 ```
 
 ├── Images
-│   ├── tf_idf_kmeans
-│   ├── tf_idf_nn
-│   ├── BERT
+│   ├── k_means
+│   ├── feature_importance
+│   ├── tables
 │   ├── general
-├── Reference
-│   ├── Kaggle_official
-│   ├── Notebooks
-│   ├── mac_environment P4P.yml
-│   ├── mac_environment.yml
+├── Development_notebooks
+│   ├── Testing_Brewing_Chemistry_07_07.ipynb
+│   ├── Brewing_Chemistry_07_04.ipynb
+│   ├── exploring.ipynb
+│   ├── XXXXXXXXX
+├── Data
+│   ├── beer_sample_set.csv
+│   ├── brewery_data_complete_extended.csv
+│   ├── brewery_dataset.zip
 ├── Project_PDFs
-│   ├── automated_essay_scoring_presentation.pdf
-│   ├── automated_essay_scoring_notebook.pdf
-│   └── AES_github_repository.pdf
+│   ├── Brewing_Chemistry_presentation.pdf
+│   ├── Brewing_Chemistry_notebook.pdf
+│   └── Brewing_Chemistry_github_repository.pdf
 ├── .gitignore
-├── automated_essay_scoring_6_XX.ipynb
+├── Brewing_Chemistry_XX.ipynb
 └── README.md
 ```
 
