@@ -45,20 +45,21 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 
 -Use the following code to create a reproducible subset of the larger [Kaggle Dataset](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset/data) <br>
  
-# Load the CSV file
+## Procedure to create data subset 
+### Load the CSV file
 input_csv_path = 'C:YOUR Path\\brewery_data_complete_extended.csv'  # Replace 'YOUR Path' with your input CSV file path
 output_csv_path = 'C:YOUR Path\\beer_sample_set.csv'  # Replace 'YOUR Path' with your desired output CSV file path
 
-# Read the CSV file
+### Read the CSV file
 df = pd.read_csv(input_csv_path)
 
-# Calculate the number of rows to extract
+### Calculate the number of rows to extract
 num_rows_to_extract = int(len(df) * 0.025)
 
-# Extract the first 10% of the rows
+### Extract the first 10% of the rows
 beer_subset_df = df.iloc[:num_rows_to_extract]
 
-# Save the extracted rows to a new CSV file
+### Save the extracted rows to a new CSV file
 beer_subset_df.to_csv(output_csv_path, index=False)
 
 print(f'The first 2.5% of the CSV has been saved to {output_csv_path}')
@@ -67,7 +68,7 @@ print(f'The first 2.5% of the CSV has been saved to {output_csv_path}')
 
 **Data Licensing and Usage**
 
-- [Database: Open Database, Contents: Copyright Original Authors](https://creativecommons.org/licenses/by-nc/4.0/)
+[Database: Open Database, Contents: Copyright Original Authors](https://creativecommons.org/licenses/by-nc/4.0/)
 
 # Methodology
 
@@ -121,10 +122,6 @@ The data used in this analysis can be found in the [Kaggle Dataset](https://www.
 │   ├── Brewing_Chemistry_07_04.ipynb
 │   ├── exploring.ipynb
 │   ├── XXXXXXXXX
-├── Data
-│   ├── beer_sample_set.csv
-│   ├── brewery_data_complete_extended.csv
-│   ├── brewery_dataset.zip
 ├── Project_PDFs
 │   ├── Brewing_Chemistry_presentation.pdf
 │   ├── Brewing_Chemistry_notebook.pdf
