@@ -1,7 +1,6 @@
-<div style="display: flex; justify-content: center;">
-    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 400px;">
+<div style="text-align: center;">
+    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 400px; display: inline-block; vertical-align: middle;">
 </div>
-
 
 # Brewery Operations and Market Analysis Dataset
 
@@ -9,17 +8,30 @@ This project was completed as the final Phase 5, Capstone assessment in the Flat
 
 Analysis by Erin Wasserman, July 2024
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Overview</span>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Overview</span>
+    </td>
+  </tr>
+</table>
+
 
 This dataset presents an extensive collection of data from a craft beer brewery, spanning from January 2020 to January 2024. It encapsulates a rich blend of brewing parameters, sales data, and quality assessments, providing a holistic view of the brewing process and its market implications.
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Business Problem</span>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Business Problem</span>
+    </td>
+  </tr>
+</table>
 
 In the beer market, demand plays a key role in future industry dynamics. The introduction of new ingredients and innovative flavors into the beer market, combined with a business model that values consumer loyalty, will increase appeal among generations. 
 
@@ -30,11 +42,16 @@ The main goal of any brewery is to focus on producing high quality beer. **Quali
 3. Evaluate ML accuracy in predicting beer characteristics.
 4. Visualize beer styles based on quality ratings.
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Data Understanding</span>
-<br><br>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Data Understanding</span>
+    </td>
+  </tr>
+</table>
 
 **Dataset Description**
 
@@ -73,10 +90,16 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 
 [Database: Open Database, Contents: Copyright Original Authors](https://creativecommons.org/licenses/by-nc/4.0/)
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Methodology</span>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Methodology</span>
+    </td>
+  </tr>
+</table>
 <br><br>
 <span>
     <img src="Images/General/unsupervised_image.png" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
@@ -116,10 +139,16 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 4. Reduced Feature Engineering <br>
     - Limited computational resources constrained the ability to explore and engineer additional features that could improve model performance.
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Key Findings</span>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Key Findings</span>
+    </td>
+  </tr>
+</table>
 
 ## Actionable Insights
 
@@ -156,10 +185,16 @@ These steps aim to address the core issues of resource constraints and dataset s
 - Design all solutions with scalability in mind.
 - Prepare to accommodate future expansions in dataset size and analysis complexity.<br><br>
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Author</span><br>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Author</span>
+    </td>
+  </tr>
+</table>
 
 Name: Erin Wasserman
 
@@ -167,10 +202,17 @@ GitHub: [Cellister](https://github.com/cellister)
 
 Email address: cellister at gmail .com
 
-<span>
-    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
-</span> 
-<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Repository Structure</span><br><br>
+<table>
+  <tr>
+    <td>
+      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
+    </td>
+    <td>
+      <span style="font-size: 32px; font-weight: bold;">Repository Structure</span>
+    </td>
+  </tr>
+</table>
+<br>
 
 * **Notebook**
 
