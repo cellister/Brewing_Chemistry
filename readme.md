@@ -1,6 +1,7 @@
-<span>
-    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 400px; display: inline-block; vertical-align: middle;">
-</span> 
+<div style="display: flex; justify-content: center;">
+    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 400px;">
+</div>
+
 
 # Brewery Operations and Market Analysis Dataset
 
@@ -11,14 +12,14 @@ Analysis by Erin Wasserman, July 2024
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Overview</span>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Overview</span>
 
 This dataset presents an extensive collection of data from a craft beer brewery, spanning from January 2020 to January 2024. It encapsulates a rich blend of brewing parameters, sales data, and quality assessments, providing a holistic view of the brewing process and its market implications.
 
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Business Problem</span>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Business Problem</span>
 
 In the beer market, demand plays a key role in future industry dynamics. The introduction of new ingredients and innovative flavors into the beer market, combined with a business model that values consumer loyalty, will increase appeal among generations. 
 
@@ -32,7 +33,7 @@ The main goal of any brewery is to focus on producing high quality beer. **Quali
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Data Understanding</span>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Data Understanding</span>
 <br><br>
 
 **Dataset Description**
@@ -75,7 +76,7 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Methodology</span>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Methodology</span>
 <br><br>
 <span>
     <img src="Images/General/unsupervised_image.png" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
@@ -118,7 +119,7 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Key Findings</span>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Key Findings</span>
 
 ## Actionable Insights
 
@@ -158,7 +159,7 @@ These steps aim to address the core issues of resource constraints and dataset s
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Author</span><br>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Author</span><br>
 
 Name: Erin Wasserman
 
@@ -169,7 +170,7 @@ Email address: cellister at gmail .com
 <span>
     <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; display: inline-block; vertical-align: middle;">
 </span> 
-<span style="font-size: 3em; font-weight: bold; vertical-align: middle;">Repository Structure</span><br><br>
+<span style="font-size: 32px; font-weight: bold; vertical-align: middle;">Repository Structure</span><br><br>
 
 * **Notebook**
 
