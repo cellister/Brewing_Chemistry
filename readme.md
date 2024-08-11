@@ -1,5 +1,5 @@
 <div style="text-align: center;">
-    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 400px; display: inline-block; vertical-align: middle;">
+    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 400px; display: block; margin: 0 auto;">
 </div>
 
 # Brewery Operations and Market Analysis Dataset
@@ -8,30 +8,11 @@ This project was completed as the final Phase 5, Capstone assessment in the Flat
 
 Analysis by Erin Wasserman, July 2024
 
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Overview</span>
-    </td>
-  </tr>
-</table>
-
+# Overview
 
 This dataset presents an extensive collection of data from a craft beer brewery, spanning from January 2020 to January 2024. It encapsulates a rich blend of brewing parameters, sales data, and quality assessments, providing a holistic view of the brewing process and its market implications.
 
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Business Problem</span>
-    </td>
-  </tr>
-</table>
+# Business Problem
 
 In the beer market, demand plays a key role in future industry dynamics. The introduction of new ingredients and innovative flavors into the beer market, combined with a business model that values consumer loyalty, will increase appeal among generations. 
 
@@ -42,16 +23,7 @@ The main goal of any brewery is to focus on producing high quality beer. **Quali
 3. Evaluate ML accuracy in predicting beer characteristics.
 4. Visualize beer styles based on quality ratings.
 
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Data Understanding</span>
-    </td>
-  </tr>
-</table>
+# Data Understanding
 
 **Dataset Description**
 
@@ -88,19 +60,7 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 
 **Data Licensing and Usage**
 
-[Database: Open Database, Contents: Copyright Original Authors](https://creativecommons.org/licenses/by-nc/4.0/)
-
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Methodology</span>
-    </td>
-  </tr>
-</table>
-<br><br>
+# Methodology
 <span>
     <img src="Images/General/unsupervised_image.png" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
 <span style="font-size: 2em; font-weight: bold; vertical-align: middle;"><span>
@@ -139,16 +99,7 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 4. Reduced Feature Engineering <br>
     - Limited computational resources constrained the ability to explore and engineer additional features that could improve model performance.
 
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Key Findings</span>
-    </td>
-  </tr>
-</table>
+# Key Findings
 
 ## Actionable Insights
 
@@ -185,16 +136,7 @@ These steps aim to address the core issues of resource constraints and dataset s
 - Design all solutions with scalability in mind.
 - Prepare to accommodate future expansions in dataset size and analysis complexity.<br><br>
 
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Author</span>
-    </td>
-  </tr>
-</table>
+# Author
 
 Name: Erin Wasserman
 
@@ -202,16 +144,7 @@ GitHub: [Cellister](https://github.com/cellister)
 
 Email address: cellister at gmail .com
 
-<table>
-  <tr>
-    <td>
-      <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 75px; vertical-align: middle;">
-    </td>
-    <td>
-      <span style="font-size: 32px; font-weight: bold;">Repository Structure</span>
-    </td>
-  </tr>
-</table>
+# Repository Structure
 <br>
 
 * **Notebook**
