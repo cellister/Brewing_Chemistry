@@ -1,18 +1,38 @@
-# Kaggle Open Dataset: 
-# Brewery Operations and Market Analysis Dataset
+<span>
+    <img src="Images/General/beer_company_logo.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Brewery Operations and Market Analysis Dataset</span>
 
 This project was completed as the final Phase 5, Capstone assessment in the Flatiron School’s Data Science Bootcamp. 
 
 Analysis by Erin Wasserman, July 2024
 
-# Overview
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Overview</span>
 
 This dataset presents an extensive collection of data from a craft beer brewery, spanning from January 2020 to January 2024. It encapsulates a rich blend of brewing parameters, sales data, and quality assessments, providing a holistic view of the brewing process and its market implications.
 
-# Business Problem
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Business Problem</span>
 
+In the beer market, demand plays a key role in future industry dynamics. The introduction of new ingredients and innovative flavors into the beer market, combined with a business model that values consumer loyalty, will increase appeal among generations. 
 
-# Data Understanding
+The main goal of any brewery is to focus on producing high quality beer. **Quality beer is a key success factor.** The most important thing a brewery can do is keep producing quality beer to stay competitive. As the variety of beers on the market increases, low-quality beers will be eliminated first. 
+
+1. Determine best malt and hops types for quality beer.
+2. Assess malt-to-hops ratio impact on beer quality.
+3. Evaluate ML accuracy in predicting beer characteristics.
+4. Visualize beer styles based on quality ratings.
+
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Data Understanding</span>
+<br><br>
 
 **Dataset Description**
 
@@ -44,25 +64,6 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
 **Data Splits**
 
 -Use the following code to create a reproducible subset of the larger [Kaggle Dataset](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset/data) <br>
- 
-## Procedure to create data subset 
-### Load the CSV file
-input_csv_path = 'C:YOUR Path\\brewery_data_complete_extended.csv'  # Replace 'YOUR Path' with your input CSV file path
-output_csv_path = 'C:YOUR Path\\beer_sample_set.csv'  # Replace 'YOUR Path' with your desired output CSV file path
-
-### Read the CSV file
-df = pd.read_csv(input_csv_path)
-
-### Calculate the number of rows to extract
-num_rows_to_extract = int(len(df) * 0.025)
-
-### Extract the first 10% of the rows
-beer_subset_df = df.iloc[:num_rows_to_extract]
-
-### Save the extracted rows to a new CSV file
-beer_subset_df.to_csv(output_csv_path, index=False)
-
-print(f'The first 2.5% of the CSV has been saved to {output_csv_path}')
 
 - The dataset was randomly split into training (80%) and test (20%) sets to evaluate model performance.
 
@@ -70,25 +71,93 @@ print(f'The first 2.5% of the CSV has been saved to {output_csv_path}')
 
 [Database: Open Database, Contents: Copyright Original Authors](https://creativecommons.org/licenses/by-nc/4.0/)
 
-# Methodology
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Methodology</span>
+<br><br>
+<span>
+    <img src="Images/General/unsupervised_image.png" alt="other_image" style="width: 70px; display: inline-block; vertical-align: middle;">
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;"><span>
+    <img src="Images/General/chem_analysis_image.png" alt="other_image" style="width: 70px; display: inline-block; vertical-align: middle;"><span>
+    <img src="Images/General/supervised_image.png" alt="other_image" style="width: 70px; display: inline-block; vertical-align: middle;">
+</span> 
+</span> </span>
 
 ## Data Preparation
 
 **Data Cleaning and Preprocessing**
 
+1. Correlation Plots
+2. Pair plots
+
 ## Modeling
 
-# Evaluation
+1. K-Means Clustering
+2. Random Forest 
+3. Gradient Boosted Decision Tree
+
+## Evaluation
+
+1. Inertia Score
+2. Silhouette Score
+3. R^2 Score
 
 ## Limitations
 
-# Key Findings
+1. Computational Bottlenecks <br>
+    - Despite the completeness of the dataset, the sheer size of 10 million data points likely caused significant computational bottlenecks, limiting the depth and breadth of this analysis.
+2. Underutilization of Data <br>
+    - Due to resource constraints, not all data could be effectively utilized, potentially leading to incomplete insights.
+3. Sampling Bias<br>
+    - Only a subset of data was analyzed due to resource limits, this introduced sampling bias, affecting the representativeness of these results.
+4. Reduced Feature Engineering <br>
+    - Limited computational resources constrained the ability to explore and engineer additional features that could improve model performance.
+
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Key Findings</span>
 
 ## Actionable Insights
 
+1. Refine Malt-to-Hops ratios.
+
+2. Validate machine learning models.
+
+3. Leverage clustering for beer style differentiation.
+
+4. Analyze malt and hops types combinations.
+
 ## Next Steps
 
-# Author
+These steps aim to address the core issues of resource constraints and dataset size, helping to continue this analysis more efficiently and effectively in the next phase of this project.
+<ol>
+<li>Optimize Resource Allocation:
+
+- Explore using specialized cloud services like Google Cloud Dataproc for large-scale Spark jobs.
+- Consider AWS Sagemaker for model training to take advantage of managed machine learning services.
+- Investigate high-performance computing (HPC) clusters or collaborate with research institutions for advanced computational resources.
+
+<li>Enhance Spark Utilization:
+
+- Continue refining Apache Spark for in-memory processing and distributed computation.
+- Focus on reducing dependency on Pandas to improve processing speed and efficiency.
+
+<li>Expand Feature Engineering:
+
+- Generate a diverse array of features within Spark.
+- Aim to maximize dataset utility and model accuracy without the need for data format conversion.
+
+<li>Ensure Scalability:
+
+- Design all solutions with scalability in mind.
+- Prepare to accommodate future expansions in dataset size and analysis complexity.<br><br>
+
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Author</span><br>
 
 Name: Erin Wasserman
 
@@ -96,7 +165,10 @@ GitHub: [Cellister](https://github.com/cellister)
 
 Email address: cellister at gmail .com
 
-# Repository Structure
+<span>
+    <img src="Images/General/narrative_bullet.png" alt="other_image" style="width: 30px; display: inline-block; vertical-align: middle;">
+</span> 
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;">Repository Structure</span><br><br>
 
 * **Notebook**
 
@@ -108,20 +180,16 @@ This 5-7 minute, non-technical [presentation PDF](https://github.com/cellister/A
 
 * **Data**
 
-The data used in this analysis can be found in the [Kaggle Dataset](https://www.kaggle.com/competitions/learning-agency-lab-automated-essay-scoring-2/data).
+The data used in this analysis can be found in the [Kaggle Dataset](https://www.kaggle.com/datasets/ankurnapa/brewery-operations-and-market-analysis-dataset/data).
 
 ```
 
 ├── Images
-│   ├── k_means
-│   ├── feature_importance
-│   ├── tables
-│   ├── general
+│   ├── Unsupervised
+│   ├── Supervised
+│   ├── Chemistry_analysis
+│   ├── General
 ├── Development_notebooks
-│   ├── Testing_Brewing_Chemistry_07_07.ipynb
-│   ├── Brewing_Chemistry_07_04.ipynb
-│   ├── exploring.ipynb
-│   ├── XXXXXXXXX
 ├── Project_PDFs
 │   ├── Brewing_Chemistry_presentation.pdf
 │   ├── Brewing_Chemistry_notebook.pdf
