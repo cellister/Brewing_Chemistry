@@ -104,6 +104,14 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
   <li><strong>
 K-Means Clustering</strong></ol>
 
+<span>
+    <img src="Images/Unsupervised/PCA_clustering.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+<span style="font-size: 2em; font-weight: bold; vertical-align: middle;"><span>
+    <img src="Images/Unsupervised/silhouette_cluster_plot.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;"><span>
+    <img src="Images/Unsupervised/elbow_cluster_plot.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+</span> 
+</span> </span>
+<br>
 Evaluation Metrics:
 <ul>
 <li>Inertia Score: 19196114.00
@@ -118,7 +126,9 @@ Observation: (Silhouette) A silhouette score of 0.2700 suggests that the cluster
 <li><strong>
 Random Forest</strong>
 </ol>
-
+<span>
+    <img src="Images/Supervised/RF_importance_plot.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+</span> <br>
 Evaluation Metrics:
 <ul>
 <li>R^2 Score: 1.7314027253467756e-05
@@ -130,7 +140,9 @@ Observation: The very low R² score suggests poor predictive power, indicating t
 <li><strong>
 Gradient Boosted</strong>
 </ol>
-
+<span>
+    <img src="Images/Supervised/XGB_importance_plot.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+</span><br>
 Evaluation Metrics:
 <ul> 
 <li>R^2 Score: 6.48369635813939e-06
@@ -143,14 +155,20 @@ Observation: Similar to Random Forest, the low R² score indicates that the mode
 <li><strong>
 Hexbin Plots</strong>
 </ol>
-
+<span>
+    <img src="Images/Chemistry_analysis/Malt_Hops_Ratio_hexbin.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+</span><br> 
 Observation: The Malt-to-Hops ratio shows little correlation with quality scores, suggesting that other factors may play a more significant role in determining quality. This warrants further investigation into other feature combinations.
 
 <ol start ="5">
 <li><strong>
 Box and Violin Plots</strong>
 </ol>
-
+<span>
+    <img src="Images/Chemistry_analysis/fermentation_style_box_plot.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+</span> <span>
+    <img src="Images/Chemistry_analysis/fermentation_style_violin_plot.jpg" alt="other_image" style="width: 200px; display: inline-block; vertical-align: middle;">
+</span><br>
 Observation: Consistent median fermentation times across beer styles suggest standardization in the brewing process, while the presence of outliers indicates specific conditions or variations that may impact quality. Exploring these outliers could reveal insights into optimizing the brewing process.
 ## Actionable Insights
 
