@@ -100,7 +100,58 @@ Brewing Process Optimization: Ideal for analysis aiming to correlate brewing tec
     - Limited computational resources constrained the ability to explore and engineer additional features that could improve model performance.
 
 # Key Findings
+<ol>
+  <li><strong>
+K-Means Clustering</strong></ol>
 
+Evaluation Metrics:
+<ul>
+<li>Inertia Score: 19196114.00
+<li>Silhouette Score: 0.2700
+</ul>
+
+Observation (Inertia Score): High inertia score indicates that the clusters are not well-separated, suggesting that the data points within clusters are relatively far from their centroids.
+
+Observation: (Silhouette) A silhouette score of 0.2700 suggests that the clustering may not be well-defined, indicating some overlap between clusters and potential room for improvement in feature selection or clustering parameters.
+
+<ol start ="2">
+<li><strong>
+Random Forest</strong>
+</ol>
+
+Evaluation Metrics:
+<ul>
+<li>R^2 Score: 1.7314027253467756e-05
+</ul>
+
+Observation: The very low R² score suggests poor predictive power, indicating that the model is not capturing the variance in the data well. The feature importance analysis highlights critical factors, but the overall model performance needs further tuning.
+
+<ol start ="3">
+<li><strong>
+Gradient Boosted</strong>
+</ol>
+
+Evaluation Metrics:
+<ul> 
+<li>R^2 Score: 6.48369635813939e-06
+</ul>
+
+Observation: Similar to Random Forest, the low R² score indicates that the model is not effectively predicting beer quality. The critical features identified provide valuable insights, but further model refinement and feature engineering are necessary.
+
+<u>Additional Plots:</u><br>
+<ol start ="4">
+<li><strong>
+Hexbin Plots</strong>
+</ol>
+
+Observation: The Malt-to-Hops ratio shows little correlation with quality scores, suggesting that other factors may play a more significant role in determining quality. This warrants further investigation into other feature combinations.
+
+<ol start ="5">
+<li><strong>
+Box and Violin Plots</strong>
+</ol>
+
+Observation: Consistent median fermentation times across beer styles suggest standardization in the brewing process, while the presence of outliers indicates specific conditions or variations that may impact quality. Exploring these outliers could reveal insights into optimizing the brewing process.
 ## Actionable Insights
 
 1. Refine Malt-to-Hops ratios.
@@ -121,7 +172,7 @@ These steps aim to address the core issues of resource constraints and dataset s
 - Consider AWS Sagemaker for model training to take advantage of managed machine learning services.
 - Investigate high-performance computing (HPC) clusters or collaborate with research institutions for advanced computational resources.
 
-<li>Enhance Spark Utilization:
+<li>Leverage Spark:
 
 - Continue refining Apache Spark for in-memory processing and distributed computation.
 - Focus on reducing dependency on Pandas to improve processing speed and efficiency.
@@ -131,7 +182,7 @@ These steps aim to address the core issues of resource constraints and dataset s
 - Generate a diverse array of features within Spark.
 - Aim to maximize dataset utility and model accuracy without the need for data format conversion.
 
-<li>Ensure Scalability:
+<li>Plan for Scalability:
 
 - Design all solutions with scalability in mind.
 - Prepare to accommodate future expansions in dataset size and analysis complexity.<br><br>
@@ -153,7 +204,7 @@ The [Google Colab Notebook](https://github.com/cellister/Automated_Essay_Scoring
 
 * **Presentation**
 
-This 5-7 minute, non-technical [presentation PDF](https://github.com/cellister/Automated_Essay_Scoring/blob/main/Project_PDFs/automated_essay_scoring_presentation.pdf) was made in [Canva](https://www.canva.com/design/DAGH1bsu130/EECBDNF5RDqHKnpQhlo84g/edit?utm_content=DAGH1bsu130&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and gives an impactful and brief overview of the key insights and recommendations. 
+This 5-7 minute, non-technical [presentation PDF](https://github.com/cellister/Automated_Essay_Scoring/blob/main/Project_PDFs/automated_essay_scoring_presentation.pdf) was made in [Canva](https://www.canva.com/design/DAGLjNp34do/PpyjXviTJ2iyF8SPuVBttA/edit?utm_content=DAGLjNp34do&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) and gives an impactful and brief overview of the key insights and recommendations. 
 
 * **Data**
 
